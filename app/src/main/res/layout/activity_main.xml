@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/ic_fundo"
+    android:fillViewport="true">
+    <!--android:theme="@android:style/Theme.NoTitleBar.Fullscreen">-->
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1.0">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal"
+            android:paddingTop="10.0dip"
+            android:paddingBottom="10.0dip">
+
+            <ImageView
+                android:id="@+id/imgLogo"
+                android:layout_width="90.0dip"
+                android:layout_height="90.0dip"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1.0"
+                android:adjustViewBounds="true"
+                android:cropToPadding="false"
+                android:padding="5.0dip"
+                android:paddingBottom="3.0dip"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/bar_logo_white" />
+
+            <TextView
+                android:id="@id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="7.0dip"
+                android:layout_weight="1.0"
+                android:text="@string/menu_titulo"
+                android:textColor="@color/textIcons"
+                android:textSize="18.0sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="100.0dip"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginTop="30.0dip"
+            android:layout_marginRight="10.0dip"
+            android:layout_marginBottom="20.0dip"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/imgBtn_programacao"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="5.0dip"
+                android:layout_marginRight="5.0dip"
+                android:layout_weight="1.0"
+                android:background="@drawable/screen_border"
+                android:drawableTop="@drawable/ic_subevento"
+                android:onClick="onClick"
+                android:paddingTop="20.0dip"
+                android:paddingBottom="20.0dip"
+                android:text="@string/title_button_programacao"
+                android:textAllCaps="false"
+                android:textColor="@color/textIcons"
+                android:textSize="16.0sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="100.0dip"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/imgBtn_agenda"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="5.0dip"
+                android:layout_marginRight="5.0dip"
+                android:layout_weight="1.0"
+                android:background="@drawable/screen_border"
+                android:drawableTop="@drawable/ic_agenda"
+                android:onClick="onClick"
+                android:paddingTop="20.0dip"
+                android:paddingBottom="20.0dip"
+                android:text="@string/title_activity_shows"
+                android:textAllCaps="false"
+                android:textColor="@color/textIcons"
+                android:textSize="16.0sp" />
+
+            <Button
+                android:id="@+id/imgBtn_mapa"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="5.0dip"
+                android:layout_marginRight="5.0dip"
+                android:layout_weight="1.0"
+                android:background="@drawable/screen_border"
+                android:drawableTop="@drawable/ic_mapaevento"
+                android:onClick="onClick"
+                android:paddingTop="20.0dip"
+                android:paddingBottom="10.0dip"
+                android:text="@string/title_activity_mapa"
+                android:textAllCaps="false"
+                android:textColor="@color/textIcons"
+                android:textSize="16.0sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

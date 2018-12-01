@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "482236973624",
+    "firebase_url": "https://project-expoporto.firebaseio.com",
+    "project_id": "project-expoporto",
+    "storage_bucket": "project-expoporto.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:482236973624:android:7bb859a879a9cc72",
+        "android_client_info": {
+          "package_name": "kunas.app.expoporto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "482236973624-057e8s4sasc752qjcigj3sncq7uvkj3b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kunas.app.expoporto",
+            "certificate_hash": "fbd48663a5dfed8704e7056664521cd61783f327"
+          }
+        },
+        {
+          "client_id": "482236973624-ikm18s307i4nnqdjlonvvffahc2nrk41.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBARY88bPPXyoGAOiCjXAAfYrPnXgCVVlA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "482236973624-ikm18s307i4nnqdjlonvvffahc2nrk41.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

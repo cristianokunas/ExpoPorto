@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_font_family_body_1_material">sans-serif</string>
+    <string name="abc_font_family_body_2_material">sans-serif-medium</string>
+    <string name="abc_font_family_button_material">sans-serif-medium</string>
+    <string name="abc_font_family_caption_material">sans-serif</string>
+    <string name="abc_font_family_display_1_material">sans-serif</string>
+    <string name="abc_font_family_display_2_material">sans-serif</string>
+    <string name="abc_font_family_display_3_material">sans-serif</string>
+    <string name="abc_font_family_display_4_material">sans-serif-light</string>
+    <string name="abc_font_family_headline_material">sans-serif</string>
+    <string name="abc_font_family_menu_material">sans-serif</string>
+    <string name="abc_font_family_subhead_material">sans-serif</string>
+    <string name="abc_font_family_title_material">sans-serif-medium</string>
+    <string name="app_name">Expo Porto</string>
+    <string name="detail_evento_info">Sobre o evento</string>
+    <string name="detalhe_botao_mapa_google">Abrir no Google Maps</string>
+    <string name="mensagem_lista_programacao_vazia">Nenhuma programação para mostrar</string>
+    <string name="menu_titulo">"	3ª ExpoPorto
+	Feira de Exposições de
+	Porto Vera Cruz"</string>
+    <string name="title_activity_shows">Shows</string>
+    <string name="title_button_programacao">Programação Completa</string>
+    <string name="title_activity_programacao">Programação</string>
+    <string name="title_activity_mapa">Mapa</string>
+    <string name="text_btn_day1">Dia 15-03</string>
+    <string name="text_btn_day2">Dia 16-03</string>
+    <string name="text_btn_day3">Dia 17-03</string>
+    <string name="loading">Carregando</string>
+    <string name="API_KEY">AIzaSyAdLX5U-RJdc5GEdaxIh0mDiNzxRVlrJDA</string>
+</resources>

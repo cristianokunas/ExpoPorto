@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/toolbar_shows_programacao"
+        android:icon="@mipmap/ic_subevento"
+        android:orderInCategory="100"
+        android:title="Programação"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/toolbar_shows_mapa"
+        android:icon="@mipmap/ic_mapaevento"
+        android:orderInCategory="200"
+        android:title="Mapa"
+        app:showAsAction="always" />
+</menu>
